@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/score/score",
+    "pages/myInfo/myInfo",
+    "pages/vcode/vcode",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "珠江小盒子",
+    "navigationBarTextStyle": "black"
+  },
+  "navigateToMiniProgramAppIdList": ["wxf0ba93e3faff4eda"],
+  "sitemapLocation": "sitemap.json"
+}

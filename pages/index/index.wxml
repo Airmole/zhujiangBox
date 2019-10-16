@@ -1,0 +1,43 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- loading -->
+  <view wx:if="{{isLoading === '加载中'}}" class="remind-box">
+    <image class="remind-img" src="/images/loading.gif"></image>
+  </view>
+  <!--列表-->
+  <view wx:else class="main-card">
+    <view class="page">
+      <view class="header">
+        <view class="black-cover">
+        </view>
+        <image class="logo" src="https://z4a.net/images/2019/02/20/blur.jpg">
+        </image>
+        <image class="title" src="/images/title.png">
+        </image>
+      </view>
+      <view class="page__hd">
+        <view class="page__desc">基本功能</view>
+      </view>
+      <view class="page__bd">
+        <view class="weui-grids">
+          <block wx:for="{{grids}}" wx:key="*this">
+            <view bindtap="goPage" data-url="{{item.url}}" data-id="{{item.id}}" class="weui-grid" hover-class="weui-grid_active">
+              <image class="weui-grid__icon" src="/images/{{item.icon}}.png" />
+              <view class="weui-grid__label">{{item.name}}</view>
+            </view>
+          </block>
+          <view bindtap="goShellBox" class="weui-grid" hover-class="weui-grid_active">
+              <image class="weui-grid__icon" src="/images/ShellBox.png" />
+              <view class="weui-grid__label">贝壳小盒子 </view>
+            </view>
+        </view>
+      </view>
+    </view>
+    <!-- 未登录提示 -->
+    <view wx:if="{{!isLogined}}" class="remind-box">
+      <image class="remind-img" src="/images/nothing.png"></image>
+      <text class="remind-text">你都不绑定学号,人家怎么帮你查</text>
+      <button class="login-btn" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">绑定登录</button>
+    </view>
+  </view>
+</view>

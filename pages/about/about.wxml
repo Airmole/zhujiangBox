@@ -1,0 +1,63 @@
+<view class="container page">
+  <view class="header">
+    <view class="black-cover">
+    </view>
+    <image class="logo" src="https://z4a.net/images/2019/02/20/blur.jpg">
+    </image>
+    <image class="title" src="/images/title.png">
+    </image>
+  </view>
+  <view class="content">
+    <view class="version">
+      <view class="version-title">
+        <text class="title-name">贝壳小盒子</text>
+        <text class="version-text">公测0.0.1</text>
+      </view>
+    </view>
+    <view class="describe">
+      <text class="desc-title">简介</text>
+      <text class="desc-content" style='text-indent:2em;'>珠江小盒子（ShellBox）是一款微信小程序，小盒子有一个梦想，乃为珠江学院信息化之建设贡献自己的一份力量。期与君戮力同心，为学院之未来努力奋斗!</text>
+      <text class="desc-title">数据来源</text>
+      <text class="desc-content">* 成绩等数据来自教务处官网；\r\n</text>
+      <text class="desc-title">开发贡献</text>
+      <view class='avatarGroup'>
+        <view class='oneAvatar' wx:for="{{coder}}" wx:key="coderkey">
+          <view class="userinfo-avatar">
+            <image src='{{item.avatar}}' style='width:110rpx;height:110rpx;'></image>
+          </view>
+          <view class="coperatorName">{{item.nickName}}</view>
+        </view>
+      </view>
+      <text class="desc-title">咨询客服</text>
+      <view class='avatarGroup'>
+        <view class='oneAvatar' wx:for="{{servicer}}" wx:key="serverkey">
+          <view class="userinfo-avatar">
+            <image src='{{item.avatar}}' style='width:110rpx;height:110rpx;'></image>
+          </view>
+          <view class="coperatorName">{{item.nickName}}</view>
+        </view>
+      </view>
+      <text class="desc-title" style="margin-top:20px;">关联珠江小盒子</text>
+      <text class="desc-content" style='text-indent:2em;'>若您或者您的朋友在运营与本校相关的公众号（学生组织/社团/校园自媒体等），「珠江小盒子」诚挚地欢迎您的公众号关联我们的小程序，并期待合作！\r\n  </text>
+      <text bindtap='copyID'>AppID：wx9551f8196258f706</text>
+      <text class="desc-title" style="margin-top:20px;">贝壳田园的小程序</text>
+      <view class="userinfo-avatar" bindtap="goShellBox">
+        <image src='https://z4a.net/images/2019/10/16/0a8f010d4d36f15f5.th.jpg' style='width:110rpx;height:110rpx;'></image>
+      </view>
+      <view class="coperatorName">贝壳小盒子</view>
+    </view>
+  </view>
+
+  <view class="button-sp-area">
+    <button class="weui-btn" type="primary" plain="true" bindtap="joinQQGroup">联系客服</button>
+  </view>
+
+</view>
+
+<view class="footer">
+  <view class="footer-beingshawn">
+    <text>Airmole.</text>
+  </view>
+  <text>珠江小盒子(ZhujiangBox)</text>
+  <text>Copyright @ 2019 All Rights Reserved</text>
+</view>

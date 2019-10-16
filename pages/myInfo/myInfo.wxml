@@ -1,0 +1,69 @@
+<view class="remind-box" wx:if="{{isLoading}}">
+  <image class="remind-img" src="/images/loading.gif"></image>
+</view>
+<block wx:else>
+  <view class='GreenBG'>
+    <view class="weui-panel weui-panel_access GreenBG">
+      <view class="weui-panel__bd GreenBG">
+        <view class="weui-media-box weui-media-box_appmsg GreenBG">
+          <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+            <view class="weui-media-box__thumb">
+              <open-data type="userAvatarUrl"></open-data>
+            </view>
+          </view>
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            <view class="weui-media-box__title">{{stuInfo.name}}</view>
+            <view class="weui-media-box__title">学号：{{stuInfo.id}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="ykt-card">
+    <view class="ykt-black-line"></view>
+    <view class="ykt-content">
+      <view class="ykt-ye">
+        <text class="ykt-ye-name">姓名：{{stuInfo.name}}</text>
+        <text class="ykt-ye-name">班级：{{stuInfo.className}}</text>
+        <text class="ykt-ye-name">学号：{{stuInfo.id}}</text>
+        <text class="ykt-ye-name">专业：{{stuInfo.major}}</text>
+      </view>
+      <view class="ykt-img">
+        <image src="/images/card-bg.png"></image>
+      </view>
+    </view>
+    <view class="ykt-card-more">
+      <text class="ykt-ye-time"> </text>
+      <text class="ykt-ye-id">天津财经大学珠江学院</text>
+    </view>
+  </view>
+  <view class="ykt-detail-wraper">
+    <view class="ykt-head">
+      <text class="ykt-type-name">其他信息</text>
+    </view>
+    <view class="detail-list">
+      <view class="detail-item">
+        <text class="detail-item-label">姓名</text>
+        <text class="detail-item-value">{{stuInfo.name}}</text>
+      </view>
+      <view class="detail-item">
+        <text class="detail-item-label">院系</text>
+        <text class="detail-item-value">{{stuInfo.college}}</text>
+      </view>
+      <view class="detail-item">
+        <text class="detail-item-label">专业</text>
+        <text class="detail-item-value">{{stuInfo.major}}</text>
+      </view>
+      <view class="detail-item">
+        <text class="detail-item-label">班级</text>
+        <text class="detail-item-value">{{stuInfo.className}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="weui-footer">
+    <view class="weui-footer__links">
+      <navigator url="/pages/about/about" class="weui-footer__link">Airmole.</navigator>
+    </view>
+    <view class="weui-footer__text">Copyright © 2019 珠江小盒子</view>
+  </view>
+</block>
