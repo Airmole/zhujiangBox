@@ -60,6 +60,9 @@
       </view>
     </view>
   </view>
+    <button bindtap='logout' class="logout-btn">
+      <text>注销登录</text>
+    </button>
   <view class="weui-footer">
     <view class="weui-footer__links">
       <navigator url="/pages/about/about" class="weui-footer__link">Airmole.</navigator>

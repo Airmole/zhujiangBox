@@ -27,9 +27,13 @@
             </view>
           </block>
           <view bindtap="goShellBox" class="weui-grid" hover-class="weui-grid_active">
-              <image class="weui-grid__icon" src="/images/ShellBox.png" />
-              <view class="weui-grid__label">贝壳小盒子 </view>
-            </view>
+            <image class="weui-grid__icon" src="/images/ShellBox.png" />
+            <view class="weui-grid__label">贝壳小盒子 </view>
+          </view>
+          <button style="height:95.9px;" open-type="share" class="weui-grid" hover-class="weui-grid_active">
+            <image class="weui-grid__icon" src="/images/QApp.png" />
+            <view class="weui-grid__label">分享转发 </view>
+          </button>
         </view>
       </view>
     </view>

@@ -267,3 +267,14 @@ Page {
 }
 
 /*  end  */
+.logout-btn {
+  font-size: 13pt;
+  line-height: 85rpx;
+  height: 85rpx;
+  background: #069747;
+  color: #fff;
+  text-align: center;
+  border-radius: 25px;
+  margin: 40rpx 3%;
+}
+

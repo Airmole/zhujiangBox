@@ -20,5 +20,11 @@ Page({
         isLoading: false
       });
     }, 2000);
+  },
+  logout: function() {
+    wx.clearStorage();
+    wx.reLaunch({
+      url: '/pages/index/index'
+    })
   }
 });
