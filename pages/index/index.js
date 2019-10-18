@@ -45,7 +45,7 @@ Page({
   },
   onReady: function() {
     var that = this;
-
+    this.onLoad();
   },
 
   onShow: function() {},
