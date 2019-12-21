@@ -1527,17 +1527,17 @@ Page({
         }
         var markers = that.data.markers;
         var points = that.data.polyline[0].points;
-        //暂时一共70个坐标点
-        markers[71] = {
-          id: 71,
+        //暂时一共127个坐标点
+        markers[128] = {
+          id: 128,
           latitude: points[0].latitude,
           longitude: points[0].longitude,
           iconPath: '../../images/nav/mapicon_navi_s.png',
           width: 23,
           height: 33
         };
-        markers[72] = {
-          id: 72,
+        markers[129] = {
+          id: 129,
           latitude: points[points.length - 1].latitude,
           longitude: points[points.length - 1].longitude,
           iconPath: '../../images/nav/mapicon_navi_e.png',
