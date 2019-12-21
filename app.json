@@ -5,13 +5,19 @@
     "pages/score/score",
     "pages/myInfo/myInfo",
     "pages/vcode/vcode",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/schoolNav/schoolNav"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "珠江小盒子",
     "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于校园导航定位"
+    }
   },
   "navigateToMiniProgramAppIdList": ["wxf0ba93e3faff4eda"],
   "sitemapLocation": "sitemap.json"

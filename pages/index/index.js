@@ -22,7 +22,12 @@ Page({
       icon: 'gyhz',
       name: '关于盒子',
       url: '/pages/about/about'
-    }]
+      }, {
+        id: 3,
+        icon: 'xydh',
+        name: '校园导航',
+        url: '/pages/schoolNav/schoolNav'
+      }]
   },
   onLoad: function() {
     var that = this;
