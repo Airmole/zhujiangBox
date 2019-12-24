@@ -11,14 +11,14 @@
     <view class="version">
       <view class="version-title">
         <text class="title-name">贝壳小盒子</text>
-        <text class="version-text">公测0.0.1</text>
+        <text class="version-text">公测0.0.2</text>
       </view>
     </view>
     <view class="describe">
       <text class="desc-title">简介</text>
       <text class="desc-content" style='text-indent:2em;'>珠江小盒子（ZhujiangBox）是一款微信小程序，小盒子有一个梦想，乃为珠江学院信息化之建设贡献自己的一份力量。期与君戮力同心，为学院之未来努力奋斗!</text>
       <text class="desc-title">数据来源</text>
-      <text class="desc-content">* 成绩等数据来自教务处官网；\r\n</text>
+      <text class="desc-content">* 成绩等数据来自教务部官网；\r\n</text>
       <image bindtap="showQRCode" class="weui-article__img" src="https://z4a.net/images/2019/10/16/1c3caf03f6494553a7ca1340fadd5ef8.png" mode="widthFix" style="width:100%;border-radius:25rpx;" />
       <text class="desc-title">开发贡献</text>
       <view class='avatarGroup'>

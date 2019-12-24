@@ -9,16 +9,22 @@ Page({
     coder: [{
       avatar: 'https://z4a.net/images/2019/06/22/_20180513195821.th.jpg',
       nickName: 'Airmole'
-    }, {
+    },{
       avatar: 'https://z4a.net/images/2019/10/16/_20191016135620.th.jpg',
       nickName: '网金1804柴锐'
+    },{
+      avatar: 'https://z4a.net/images/2019/12/24/touxiang.th.jpg',
+      nickName: 'PastWind'
     }],
     servicer: [{
       avatar: 'https://z4a.net/images/2019/06/22/_20180513195821.th.jpg',
       nickName: 'Airmole'
-    }, {
+    },{
       avatar: 'https://z4a.net/images/2019/10/16/_20191016135620.th.jpg',
       nickName: '网金1804柴锐'
+    },{
+      avatar: 'https://z4a.net/images/2019/12/24/touxiang.th.jpg',
+      nickName: 'PastWind'
     }],
   },
 

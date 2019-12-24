@@ -1606,8 +1606,8 @@ Page({
   },
   jtt: function() {
     wx.previewImage({
-      current: 'https://z4a.net/images/2019/03/12/SchoolMap.png', // 当前显示图片的http链接
-      urls: ["https://z4a.net/images/2019/03/12/SchoolMap.png"] // 需要预览的图片http链接列表
+      current: 'https://z4a.net/images/2019/12/24/pingmiantu.jpg', // 当前显示图片的http链接
+      urls: ["https://z4a.net/images/2019/12/24/pingmiantu.jpg"] // 需要预览的图片http链接列表
     })
   },
   goDetail: function() {
