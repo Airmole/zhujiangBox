@@ -795,8 +795,8 @@ Page({
       }
     }, {
       id: 71,
-      latitude: 39.551017,
-      longitude: 117.401277,
+      latitude: 39.549968,
+      longitude: 117.399812,
       iconPath: "/images/nav/jiaoxuelou.png",
       width: 30,
       height: 32,
@@ -1081,8 +1081,8 @@ Page({
       }
     }, {
       id: 97,
-      latitude: 39.550545,
-      longitude: 117.410214,
+      latitude: 39.550197,
+      longitude: 117.410281,
       iconPath: "/images/nav/sushe.png",
       width: 30,
       height: 32,
@@ -1389,38 +1389,71 @@ Page({
       }
     }, {
       id: 125,
-      latitude: 39.549515,
-      longitude: 117.399271,
-      iconPath: "/images/nav/sushe.png",
-      width: 30,
-      height: 32,
-      callout: {
-        content: '育德楼',
-        display: 'ALWAYS'
-      }
-    }, {
-      id: 126,
-      latitude: 39.549201,
-      longitude: 117.399325,
-      iconPath: "/images/nav/sushe.png",
-      width: 30,
-      height: 32,
-      callout: {
-        content: '秉德楼',
-        display: 'ALWAYS'
-      }
-    }, {
-      id: 127,
-      latitude: 39.548791,
-      longitude: 117.399367,
-      iconPath: "/images/nav/sushe.png",
-      width: 30,
-      height: 32,
-      callout: {
-        content: '显德楼',
-        display: 'ALWAYS'
-      }
-    }],
+    latitude: 39.549201,
+    longitude: 117.399325,
+    iconPath: "/images/nav/sushe.png",
+    width: 30,
+    height: 32,
+    callout: {
+      content: '博学楼',
+      display: 'ALWAYS'
+    }
+  },{
+    id: 126,
+    latitude: 39.548791,
+    longitude: 117.399367,
+    iconPath: "/images/nav/sushe.png",
+    width: 30,
+    height: 32,
+    callout: {
+      content: '善学楼',
+      display: 'ALWAYS'
+    }
+  },{
+    id: 127,
+    latitude: 39.549494,
+    longitude: 117.398934,
+    iconPath: "/images/nav/sushe.png",
+    width: 30,
+    height: 32,
+    callout: {
+      content: '育德楼',
+      display: 'ALWAYS'
+    }
+  },{
+    id: 128,
+    latitude: 39.549132,
+    longitude: 117.398935,
+    iconPath: "/images/nav/sushe.png",
+    width: 30,
+    height: 32,
+    callout: {
+      content: '秉德楼',
+      display: 'ALWAYS'
+    }
+  },{
+    id: 129,
+    latitude: 39.548737,
+    longitude: 117.398941,
+    iconPath: "/images/nav/sushe.png",
+    width: 30,
+    height: 32,
+    callout: {
+      content: '显德楼',
+      display: 'ALWAYS'
+    }
+  },{
+    id: 130,
+      latitude: 39.550540,
+      longitude: 117.399960,
+    iconPath: "/images/nav/others.png",
+    width: 30,
+    height: 32,
+    callout: {
+      content: '莲花池',
+      display: 'ALWAYS'
+    }
+  }],
     distance: '',
     cost: '',
     polyline: [],
@@ -1527,17 +1560,17 @@ Page({
         }
         var markers = that.data.markers;
         var points = that.data.polyline[0].points;
-        //暂时一共127个坐标点
-        markers[128] = {
-          id: 128,
+        //暂时一共130个坐标点
+        markers[131] = {
+          id: 131,
           latitude: points[0].latitude,
           longitude: points[0].longitude,
           iconPath: '../../images/nav/mapicon_navi_s.png',
           width: 23,
           height: 33
         };
-        markers[129] = {
-          id: 129,
+        markers[132] = {
+          id: 132,
           latitude: points[points.length - 1].latitude,
           longitude: points[points.length - 1].longitude,
           iconPath: '../../images/nav/mapicon_navi_e.png',
