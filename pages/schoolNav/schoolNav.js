@@ -1450,7 +1450,7 @@ Page({
     width: 30,
     height: 32,
     callout: {
-      content: '莲花池',
+      content: '荷花池',
       display: 'ALWAYS'
     }
   }],
